@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+}
+
+.imgCont {
+    background-color: aqua;
+}
+
+
+.one {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fantaMain {
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+}
+
+#slice {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 15%;
+    z-index: 1;
+}
+
+#orange {
+    width: 20%;
+    position: absolute;
+    top: 50vh;
+    right: 30%;
+    z-index: 3;
+}
+
+.one h1 {
+    position: absolute;
+    font-size: 20vw;
+    color: white;
+}
+
+.two {
+    width: 100%;
+    height: 100vh;
+}
+
+#leaf {
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    left: 5%;
+    transform: rotate(60deg);
+}
+
+#leaf2 {
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    left: 60%;
+}
+
+#leaf3 {
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 0%;
+}
+
+.left, .right {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+    background-color: #810505;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.two {
+    display: flex;
+}
+
+.left svg {
+    transform: rotateX(80deg);
+    width: 90%;
+}
+
+.right h1 {
+    color: white;
+}
+
+.right p {
+    color: white;
+}
+
+.three {
+    position: relative;
+    gap: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 70vh;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.card h1 {
+    font-size: 5vw;
+    margin-top: 40vh;
+}
+
+.card button {
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+}
+
+#pepsi {
+    top: 10%;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+}
+
+#fanta {
+    top: 10%;
+    position: absolute;
+    width: 89%;
+}
+
+#sprite {
+    top: 10%;
+    position: absolute;
+    width: 80%;
+}
+
+.sliceMang {
+    width: 15vw;
+    position: absolute;
+    top: 0%;
+}
+
+  
